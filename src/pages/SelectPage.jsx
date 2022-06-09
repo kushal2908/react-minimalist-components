@@ -5,6 +5,7 @@ import Select from "../component/Select/Select";
 export default function SelectPage() {
   return (
     <Card title="Select">
+      <p className="mb-2">It's still under development</p>
       <Select options={Seeds} placeholder="Select Option" />
     </Card>
   );
