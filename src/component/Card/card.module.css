@@ -1,0 +1,21 @@
+.card {
+    background-color: #fff;
+    min-width: 240px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.title {
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+.children {
+    padding: 12px;
+}

@@ -1,0 +1,35 @@
+@import url('../../assests/styles/App.css');
+
+input {
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: 400ms;
+}
+
+input:focus {
+    outline: none;
+    border-radius: 4px;
+    transition: 400ms;
+}
+
+input::placeholder {
+    color: #aaa;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+input::placeholder:focus {
+    color: #444;
+}
+
+p {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 4px !important;
+    color: #444;
+}
+
+p>span {
+    color: red;
+}
